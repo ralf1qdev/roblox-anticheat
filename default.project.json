@@ -1,0 +1,56 @@
+{
+  "name": "Sentinel",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "Sentinel": {
+        "$className": "Folder",
+        "Bootstrap": {
+          "$path": "src/Bootstrap.server.luau"
+        },
+        "Config": {
+          "$path": "src/Config.luau"
+        },
+        "Evidence": {
+          "$path": "src/Evidence.luau"
+        },
+        "Movement": {
+          "$path": "src/Movement.luau"
+        },
+        "Policy": {
+          "$path": "src/Policy.luau"
+        },
+        "RemoteGuard": {
+          "$path": "src/RemoteGuard.luau"
+        },
+        "Service": {
+          "$path": "src/Service.luau"
+        },
+        "Validate": {
+          "$path": "src/Validate.luau"
+        },
+        "Signal": {
+          "$className": "Folder",
+          "Config": {
+            "$path": "src/Signal/Config.luau"
+          },
+          "Logger": {
+            "$path": "src/Signal/Logger.luau"
+          }
+        },
+        "SmokeTests": {
+          "$path": "tests/SmokeTests.luau"
+        },
+        "Examples": {
+          "$className": "Folder",
+          "Abilities": {
+            "$path": "examples/Abilities.luau"
+          },
+          "Interaction": {
+            "$path": "examples/Interaction.luau"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+local config = require(script.Parent.Parent.Config)
+return {
+    Enabled = config.Enabled,
+    StudioDelivery = config.StudioDelivery,
+    MinLevel = "INFO",
+    Console = config.Console,
+    Transport = config.Transport,
+    RelayUrl = config.RelayUrl,
+    RelaySecretName = config.RelaySecretName,
+    WebhookUrl = config.WebhookUrl,
+    WebhookId = "",
+    SecretName = "SENTINEL_DISCORD_TOKEN",
+    FlushInterval = 5,
+    MaxQueue = 200,
+    BatchSize = 6,
+    MaxAttempts = 5,
+    CaptureServerErrors = false,
+    CaptureWarnings = false,
+    TrackPlayers = false,
+    TrackCharacters = false,
+    IncludePlayerNames = false,
+}
